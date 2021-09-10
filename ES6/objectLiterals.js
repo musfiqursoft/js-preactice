@@ -1,11 +1,21 @@
 function student1(name, age) {
     return {
-        name: name,
-        age: age
+        name,
+        age
     }
 }
 
-console.log(student1("Musfiqur Rahman Rimon", 17));
+// console.log(student1("Musfiqur Rahman Rimon", 17));
+
+
+
+let message = {
+    'body name'() {
+        return `hi I am a object function`
+    }
+}
+
+console.log(message['body name']());
 
 
 // function student2(name, id) {

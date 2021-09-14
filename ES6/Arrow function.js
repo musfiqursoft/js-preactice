@@ -19,3 +19,11 @@ const message2 = () => {
     return `Hi I am message2`;
 }
 console.log(message2());
+
+
+const add = (num1, num2) => {
+    return num1 + num2;
+}
+
+const result = add(12, 13);
+console.log(result);
